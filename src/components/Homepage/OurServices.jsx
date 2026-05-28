@@ -75,7 +75,7 @@ export default function OurServices() {
               className="inline-block py-1 px-3 rounded-full bg-slate-100 border border-slate-200 text-slate-600 text-sm font-semibold tracking-wide mb-6"
               style={{ fontSize: "35px" }}
             >
-              Our Services hahahah
+              Our Services
             </span>
             <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">
               Business Support, Done Right. <br className="hidden md:block" />
