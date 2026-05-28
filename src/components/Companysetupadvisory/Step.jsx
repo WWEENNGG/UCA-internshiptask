@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import steps from "../../mockdata/step";
+import steps from "../../mockdata/step.js";
 function Step() {
   return (
     <>

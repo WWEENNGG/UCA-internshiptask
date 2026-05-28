@@ -1,4 +1,4 @@
-import offers from "../../mockdata/whatweoffer";
+import offers from "../../mockdata/whatweoffer.js";
 import { motion } from "framer-motion";
 function WhatWeOffer() {
   const containerVariants = {

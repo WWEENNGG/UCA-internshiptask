@@ -1,5 +1,5 @@
 import { useState } from "react";
-import companysetupadvisoryfaq from "../../mockdata/CompanySetupAdvisoryFaq";
+import data from "../../mockdata/companysetupadvisoryfaq.js";
 import { ChevronDown } from "lucide-react";
 import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion";
@@ -36,7 +36,7 @@ function CompanySetupAdvisoryFaq() {
         </div>
 
         <div className="space-y-4">
-          {companysetupadvisoryfaq.map((faq, index) => (
+          {data.map((faq, index) => (
             <div
               key={index}
               className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm"

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import benefits from "../../mockdata/benefits";
+import benefits from "../../mockdata/benefits.js";
 import { CheckCircle2 } from "lucide-react";
 function WhyChoseUs() {
   return (
