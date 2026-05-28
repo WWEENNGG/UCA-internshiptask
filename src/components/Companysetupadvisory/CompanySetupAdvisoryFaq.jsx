@@ -1,5 +1,5 @@
 import { useState } from "react";
-import companysetupadvisoryfaq from "../../mockdata/CompanySetupAdvisoryfaq";
+import companysetupadvisoryfaq from "../../mockdata/CompanySetupAdvisoryFaq";
 import { ChevronDown } from "lucide-react";
 import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion";
