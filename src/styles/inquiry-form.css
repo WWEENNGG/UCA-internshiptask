@@ -1,0 +1,66 @@
+/* LABEL */
+.uca-form .ant-form-item-label > label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0a2540;
+}
+
+/* INPUT + SELECT */
+.uca-form .ant-input,
+.uca-form .ant-select-selector {
+  height: 52px !important;
+  border-radius: 12px !important;
+  border: 1px solid #e2e8f0 !important;
+  transition: all 0.25s ease;
+  box-shadow: none !important;
+}
+
+/* TEXTAREA */
+.uca-form .ant-input-textarea textarea {
+  border-radius: 12px !important;
+  padding: 14px !important;
+}
+
+/* HOVER */
+.uca-form .ant-input:hover,
+.uca-form .ant-select-selector:hover,
+.uca-form .ant-input-textarea textarea:hover {
+  border-color: #0a2540 !important;
+}
+
+/* FOCUS */
+.uca-form .ant-input:focus,
+.uca-form .ant-input-focused,
+.uca-form .ant-select-focused .ant-select-selector,
+.uca-form .ant-input-textarea textarea:focus {
+  border-color: #0a2540 !important;
+  box-shadow: 0 0 0 4px rgba(10, 37, 64, 0.08) !important;
+}
+
+/* PLACEHOLDER */
+.uca-form .ant-input::placeholder,
+.uca-form textarea::placeholder {
+  color: #94a3b8;
+}
+
+/* SELECT PLACEHOLDER */
+.uca-form .ant-select-selection-placeholder {
+  color: #94a3b8 !important;
+}
+
+/* BUTTON */
+.uca-form .ant-btn-primary {
+  background-color: #0a2540 !important;
+  border: none !important;
+  height: 54px !important;
+  border-radius: 12px !important;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* BUTTON HOVER */
+.uca-form .ant-btn-primary:hover {
+  background-color: #12375d !important;
+  transform: translateY(-2px);
+}

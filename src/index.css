@@ -1,0 +1,30 @@
+@import "tailwindcss";
+body {
+  font-family: "Open Sans", sans-serif;
+}
+:root {
+  --color-navy: #0a2540;
+  --color-navy-light: #0f2a4a;
+  --color-gold: #c9a24b;
+  --color-gold-light: #d4af37;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #1e293b;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+/* .font-serif {
+  font-family: "Playfair Display", serif;
+} */
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
